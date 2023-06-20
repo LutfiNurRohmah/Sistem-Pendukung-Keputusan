@@ -61,7 +61,7 @@ require_once("auth.php");
     </ul>
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link text-white" href="logout_admin.php" role="button">
+        <a class="nav-link text-white" href="logout.php" role="button">
           Logout
         </a>
       </li>
