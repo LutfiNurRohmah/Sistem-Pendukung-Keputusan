@@ -40,7 +40,11 @@ if($cek_email){
     <div class="card-body">
     <form method=post>
         <h1 class="text-center h3 mb-3 fw-normal">Daftar</h1>
-        <div style="margin-top: 30px;">
+        <h5 class="text-primary" align="center">Sistem Pendukung Keputusan</h3>
+				  <h4 class="text-primary" align="center"><strong>Pemilihan Rekomendasi Laptop</strong></h2>
+<br>
+    <label >Isi data di bawah ini untuk mendaftar:</label>
+        <div style="margin-top: 15px;">
         <div class="row mb-3">
             <label for="inputName" class="col-sm-2 col-form-label">Nama Lengkap</label>
             <div class="col-sm-10">

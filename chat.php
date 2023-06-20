@@ -14,10 +14,10 @@ function loginForm() {
 <div id="loginform" style="padding: 5px 30px">
   </br>
   <form action="chat.php" method="post">
-  <h1>Live Chat</h1><hr/>
+  <h1 class="text-primary">Live Chat</h1><hr/>
     <label for="name">Masukkan nama untuk memulai chat</label>
     <input style="width: 300px; margin-bottom: 5px;" type="text" name="name" id="name" class="form-control" placeholder="Enter Your Name" value="'.$_SESSION["admin"]["nama_admin"].'"/>
-    <input type="submit" class="btn btn-default" name="enter" id="enter" value="Enter" />
+    <input type="submit" class="btn btn-primary" name="enter" id="enter" value="Enter" />
   </form>
 </div>
  ';
@@ -165,9 +165,9 @@ if (isset ( $_GET ['logout'] )) {
 	      ?>
 				<div id="wrapper" style="padding: 5px 30px">
 		<div id="menu">
-			<h1>Live Chat!</h1><hr/>
+			<h1 style="margin-top: 10px">Live Chat!</h1><hr/>
 			<p class="welcome"><b>HI - <a><?php echo $_SESSION["admin"]["nama_admin"]; ?></a></b></p>
-			<p class="logout"><a id="exit" href="#" class="btn btn-default">Exit Live Chat</a></p>
+			<p class="logout"><a id="exit" href="#" class="btn btn-primary">Exit Live Chat</a></p>
 			<div style="clear: both"></div>
 		</div>
 
@@ -184,7 +184,7 @@ if (isset ( $_GET ['logout'] )) {
 
 		<form name="message" action="">
 			<input style="margin:10px 0px 5px 0px" name="usermsg" class="form-control" type="text" id="usermsg" placeholder="Create A Message" />
-			<input name="submitmsg" class="btn btn-default" type="submit" id="submitmsg" value="Send" />
+			<input name="submitmsg" class="btn btn-primary" type="submit" id="submitmsg" value="Send" />
 		</form>
 	</div>
 	

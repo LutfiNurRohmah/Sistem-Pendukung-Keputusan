@@ -45,7 +45,10 @@ if($cek){
     <div class="card-body">
         <form method="post">
           <h2 class="mb-3 fw-normal">Login</h1>
-          <h3 class="mb-3 fw-normal text-primary">Desicion Support System</h3>
+          <h5 class="text-primary" align="center">Sistem Pendukung Keputusan</h3>
+				  <h4 class="text-primary" align="center"><strong>Pemilihan Rekomendasi Laptop</strong></h2>
+          <br>
+
           
           <div class="form-floating">
             <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
