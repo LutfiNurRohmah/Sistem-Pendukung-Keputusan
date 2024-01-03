@@ -344,7 +344,7 @@ require_once("auth.php");
             </div>
             
             <button type="submit" class="btn btn-primary">Simpan</button>
-            <a href="fuzzy.php"><button type="button" class="btn btn-primary">Reset</button></a>
+            <a href="fuzzy2.php"><button type="button" class="btn btn-primary">Reset</button></a>
                         </form>
         
 
