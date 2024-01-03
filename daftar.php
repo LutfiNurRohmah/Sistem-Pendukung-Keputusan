@@ -16,11 +16,11 @@ if($cek_email){
   echo '<script>alert("Email sudah terdaftar")</script>';
 }else{
     $query="INSERT INTO user (nama_lengkap, email, password) 
-            VALUES('$nama','$alamat','$email','$nomorhp','$password')";
+            VALUES('$nama','$email','$password')";
     $simpan= mysqli_query($mysqli, $query);
     if($simpan){
         echo '<script>alert("Data berhasil disimpan")</script>';
-        header("Location: halaman_login.php");
+        header("Location: index.php");
     }else{
         echo '<script>alert("Data gagal disimpan")</script>';
     }
